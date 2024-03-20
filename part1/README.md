@@ -89,3 +89,10 @@ Added ENV variables to exercise1.12.Dockerfile and exercise1.13.Dockerfile to al
 
 Simple Docker Hub Repo with yt-dlp from previous exexcises
 [yt-dlp](https://hub.docker.com/r/m5h4/yt-dlp)
+
+### Exercise 1.16
+
+I made a render.com account and created a new web service from the dashboard. I chose the course page as a docker image from dockerhub, so i didn't strictly even need to create my own. Deploing the image was then simple as clicking the deploy button on the dashboard and voila:  
+https://course-page.onrender.com
+
+Here's simplistic Dockerfile still [exercise1.16.Dockerfile](./exercise1.16.Dockerfile) 
