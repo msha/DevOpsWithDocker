@@ -76,3 +76,11 @@ Solution in [exercise1.11.Dockerfile](./exercise1.11.Dockerfile)
 ### Exercise 1.12
 
 Solution in [exercise1.12.Dockerfile](./exercise1.12.Dockerfile) 
+
+### Exercise 1.13
+
+Solution in [exercise1.13.Dockerfile](./exercise1.13.Dockerfile) 
+
+### Exercise 1.14
+
+Added ENV variables to exercise1.12.Dockerfile and exercise1.13.Dockerfile to allow frontend to backend communication
