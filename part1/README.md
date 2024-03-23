@@ -1,4 +1,6 @@
 ### Exercise 1.1
+
+ps -a after running the commands:
 ```bash
 docker ps -a
 CONTAINER ID   IMAGE                        COMMAND                  CREATED          STATUS                      PORTS     NAMES
@@ -8,12 +10,14 @@ CONTAINER ID   IMAGE                        COMMAND                  CREATED    
 ```
 
 ### Exercise 1.2
+ps -a after running the commands:
 ```bash
 docker ps -a
 CONTAINER ID   IMAGE                        COMMAND                  CREATED          STATUS                          PORTS     NAMES
 024b444aa661   nginx                        "/docker-entrypoint.…"   6 minutes ago    Up 6 minutes                    80/tcp    gracious_murdock
 ```
 
+and image ls
 ```bash
 docker image ls
 REPOSITORY                    TAG       IMAGE ID       CREATED       SIZE
@@ -38,6 +42,7 @@ docker run --rm ubuntu sh -c  "apt-get update -y && apt-get install -y curl && w
 
 ### Exercise 1.5
 
+Comparing image sizes
 ```bash
 docker images
 REPOSITORY                          TAG       IMAGE ID       CREATED       SIZE
@@ -89,6 +94,12 @@ Added ENV variables to exercise1.12.Dockerfile and exercise1.13.Dockerfile to al
 
 Simple Docker Hub Repo with yt-dlp from previous exexcises
 [yt-dlp](https://hub.docker.com/r/m5h4/yt-dlp)
+
+Pull and run image with
+```bash
+docker pull m5h4/yt-dlp
+docker run m5h4/yt-dlp
+```
 
 ### Exercise 1.16
 
